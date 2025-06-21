@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Savate", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* You can change to 700, 900, etc. */
+    font-style: normal;
+}
+
+/* Optional: You can still use specific weights/styles for elements */
+.section-one__name {
+    font-weight: 700;
+}
+
+.section-one__role {
+    font-style: italic;
+}
+.container {
+    padding:50px;
+
+}
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-one__contact {
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: inline-block;
+    margin-top:10px ;
+}
+.section-one__name {
+    font-size: 50px; ;
+}
+.section-one__role {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.section-two,.section-three,.section-four,.section-five {
+    margin-top: 20px;
+}
+.section-two__description,.section-three__description,.section-four__description,.section-five__description {
+    margin-top: 10px;
+}
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-five__title a{
+    color: skyblue;
+}
+.section-three__description,.section-four__description {
+    list-style: none;
+}
+
+.section-three,
+.section-four {
+    width: 300px; /* same width for both */
+    height: 200px; /* optional: same height if needed */
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section-three {
+    background-color: #6462FD;
+}
+
+.section-four {
+    background-color: #FE7517;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+.contact-form__input,.contact-form__textarea,.contact-form__submit {
+    margin: 10px ;
+}
+.contact-form__input {
+    padding: 10px;
+    border:none ;
+    border-bottom: solid 1px black;
+}
+.contact-form__textarea {
+    padding: 10px;
+    border:none ;
+    border: solid 1px black;
+}
+.contact-form__submit {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: orangered;
+    color: black;
+    border: none;
+}
